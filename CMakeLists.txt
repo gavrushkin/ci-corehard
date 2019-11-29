@@ -32,6 +32,8 @@ set(TEST_SRCS
 
 add_executable(test_${PROJECT_NAME} ${TEST_SRCS})
 
+#conan_target_link_libraries()
+
 target_link_libraries(test_${PROJECT_NAME}
     ${PROJECT_NAME}
     ${CONAN_LIBS}
